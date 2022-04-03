@@ -10568,7 +10568,6 @@ li {
     line-height: 1.5;
   }
   .testi{
-    /* font-family: Arial, Helvetica, sans-serif; */
     font-size: .9rem;
     line-height: 1.5;
   }
@@ -10581,25 +10580,23 @@ li {
     line-height: 1.5;
   }
   .testi{
-    /* font-family: Arial, Helvetica, sans-serif; */
     font-size: .9rem;
     line-height: 1.5;
   }
-}
+} 
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-
+ /*1rem = 16px*/
 @media (min-width: 768px)  and (max-width:991.98px) {  
   .page-section h2.section-heading{
     /* font-size: 1.5rem; */
     font-size: .9rem;
     line-height: 1.5;
-  } /*1rem = 16px*/
+  }
   .testi{
-    /* font-family: Arial, Helvetica, sans-serif; */
     font-size: .9rem;
     line-height: 1.5;
-  }
+  } 
 }
 
 
