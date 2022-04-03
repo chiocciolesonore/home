@@ -10561,7 +10561,7 @@ li {
 /* Customize font-size for @media */
 /* // Small devices (landscape phones, 576px and up)
  */
-@media (max-width: 575.98px) {
+@media (max-width: 575px) {
   .page-section h2.section-heading{
     /* font-size: 1.5rem; */
     font-size: .9rem;
@@ -10573,7 +10573,7 @@ li {
   }
 }
 
-@media (min-width: 576px) and (max-width:767.98px) {  
+@media (min-width: 576px) and (max-width:767px) {  
   .page-section h2.section-heading{
     /* font-size: 1.5rem; */
     font-size: .9rem;
@@ -10587,7 +10587,7 @@ li {
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
  /*1rem = 16px*/
-@media (min-width: 768px)  and (max-width:991.98px) {  
+@media (min-width: 768px)  and (max-width:991px) {  
   .page-section h2.section-heading{
     /* font-size: 1.5rem; */
     font-size: .9rem;
