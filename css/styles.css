@@ -10563,7 +10563,6 @@ li {
 
 @media (min-width: 544px) and (max-width:768px) {  
   .page-section h2.section-heading{
-    color:#0f6674;
     font-size: 1.5rem;
   }
   .testi{
@@ -10581,7 +10580,6 @@ li {
 
 @media (min-width: 768px)  and (max-width:768px) {  
   .page-section h2.section-heading{
-    color:#0f6674;
     font-size: 1.5rem;
   } /*1rem = 16px*/
   .testi{
