@@ -10561,6 +10561,18 @@ li {
 /* Customize font-size for @media */
 /* // Small devices (landscape phones, 576px and up)
  */
+@media (max-width: 575.98px) {
+  .page-section h2.section-heading{
+    /* font-size: 1.5rem; */
+    font-size: .9rem;
+    line-height: 1.5;
+  }
+  .testi{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: .9rem;
+    line-height: 1.5;
+  }
+}
 
 @media (min-width: 576px) and (max-width:767.98px) {  
   .page-section h2.section-heading{
