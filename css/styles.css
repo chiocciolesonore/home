@@ -10559,36 +10559,54 @@ li {
 }
 
 /* Customize font-size for @media */
-/* Small devices (landscape phones, 544px and up) */
+/* // Small devices (landscape phones, 576px and up)
+ */
+/* @media only screen and (orientation:portrait) and (min-width:321px) */
+/* 
+@media only screen and (orientation:portrait) and (min-width:321px){
+  .testi{
+    font-size: .9rem;
+    line-height: 1.5;
+  }
+} */
 
-@media (min-width: 544px) and (max-width:768px) {  
+@media only screen and (orientation:portrait) and (max-width: 575px) {
   .page-section h2.section-heading{
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
+    font-size: .9rem;
+    line-height: 1.5;
   }
   .testi{
-    /* font-family: Arial, Helvetica, sans-serif; */
-    font-family:utopia-std,serif;
-    font-size:  16px;
-    font-weight: 400;
-    line-height: 1.6;
-    color: #000000;
-    text-align: justify;
+    font-size: .9rem;
+    line-height: 1.5;
   }
 }
+
+@media only screen and (orientation:portrait) and (min-width: 576px) and (max-width:767px) {  
+  .page-section h2.section-heading{
+    /* font-size: 1.5rem; */
+    font-size: .9rem;
+    line-height: 1.5;
+  }
+  .testi{
+    font-size: .9rem;
+    line-height: 1.5;
+  }
+} 
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-
-@media (min-width: 768px)  and (max-width:768px) {  
+ /*1rem = 16px*/
+@media  (min-width: 768px)  and (max-width:991px) {  
   .page-section h2.section-heading{
-    font-size: 1.5rem;
-  } /*1rem = 16px*/
-  .testi{
-    /* font-family: Arial, Helvetica, sans-serif; */
-    font-family:utopia-std,serif;
-    font-size:  16px;
-    font-weight: 400;
-    line-height: 1.6;
-    color: #000000;
-    text-align: justify;
+    /* font-size: 1.5rem; */
+    font-size: .9rem;
+    line-height: 1.5;
   }
+  .testi{
+    font-size: .9rem;
+    line-height: 1.5;
+  } 
 }
+
+
+/* Large devices (desktops, 992px and up) */
