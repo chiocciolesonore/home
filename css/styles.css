@@ -10570,22 +10570,16 @@ li {
   }
 } */
 
-@media only screen and (orientation:portrait) and (max-width: 575px) {
-  .page-section h2.section-heading{
-    /* font-size: 1.5rem; */
-    font-size: .9rem;
-    line-height: 1.5;
-  }
-  .testi{
-    font-size: .9rem;
-    line-height: 1.5;
-  }
-}
 
-@media only screen and (orientation:portrait) and (min-width: 576px) and (max-width:767px) {  
+
+@media only screen and (orientation:portrait) and (max-width:767px) {  
   .page-section h2.section-heading{
     /* font-size: 1.5rem; */
     font-size: .9rem;
+    line-height: 1.5;
+  }
+  .page-section h3.section-heading{
+    font-size: .9rem;   
     line-height: 1.5;
   }
   .testi{
@@ -10598,8 +10592,11 @@ li {
  /*1rem = 16px*/
 @media  (min-width: 768px)  and (max-width:991px) {  
   .page-section h2.section-heading{
-    /* font-size: 1.5rem; */
-    font-size: .9rem;
+    font-size: 1.5rem;   
+    line-height: 1.5;
+  }
+  .page-section h3.section-heading{
+    font-size: .9rem;   
     line-height: 1.5;
   }
   .testi{
@@ -10609,4 +10606,3 @@ li {
 }
 
 
-/* Large devices (desktops, 992px and up) */
