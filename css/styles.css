@@ -10590,7 +10590,7 @@ li {
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
  /*1rem = 16px*/
-@media  (min-width: 768px)  and (max-width:991px) {  
+@media  only screen and (orientation:portrait) and (min-width: 768px)  and (max-width:991px) {  
   .page-section h2.section-heading{
     font-size: 1.5rem;   
     line-height: 1.5;
