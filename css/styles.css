@@ -10558,17 +10558,15 @@ li {
   padding: 50px;
 }
 
-/* Customize font-size for @media */
-/* // Small devices (landscape phones, 576px and up)
- */
-/* @media only screen and (orientation:portrait) and (min-width:321px) */
-/* 
-@media only screen and (orientation:portrait) and (min-width:321px){
-  .testi{
-    font-size: .9rem;
-    line-height: 1.5;
-  }
-} */
+.media{
+  float:left;
+  margin-top: 10px;
+  padding-right: 5px;
+  /* width: 100%; */
+  height: 160px;
+  border: none;
+  display:block;
+}
 
 
 
